@@ -1,0 +1,14 @@
+{
+  "name": "metermint-csv-preflight-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check preflight.mjs",
+    "test": "node preflight.mjs fixtures/malformed.csv --expect-invalid"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
