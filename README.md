@@ -30,6 +30,8 @@ The example never writes the key or CSV body to disk. Do not commit credentials.
 
 ## Contract
 
+Import or inspect the [RapidAPI-ready OpenAPI contract](openapi.yaml) before wiring the request; it already defines the gateway host, required headers, response shapes, and error statuses.
+
 - Endpoint: `POST https://metermint-csv-preflight.p.rapidapi.com/v1/preflight`
 - Success: HTTP `200` with `report.valid: true`
 - Parsed CSV with structural findings: HTTP `422` with stable issue codes and row/column locations
