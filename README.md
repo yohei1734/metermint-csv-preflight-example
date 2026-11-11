@@ -10,7 +10,7 @@ You probably do not need MeterMint when you control the producer and its schema 
 
 ## Try it
 
-1. Open [MeterMint on RapidAPI](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/go/rapidapi), choose a plan, and copy your RapidAPI key.
+1. Open [MeterMint on RapidAPI](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/go/rapidapi/github), choose a plan, and copy your RapidAPI key.
 2. Use Node.js 18 or newer and set the key only in your shell:
 
 ```bash
@@ -38,4 +38,4 @@ Import or inspect the [RapidAPI-ready OpenAPI contract](openapi.yaml) before wir
 - Request cap: 256 KiB
 - Deterministic parsing; no AI correction
 
-See the [public API overview and live proof](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/) or [subscribe/test on RapidAPI](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/go/rapidapi).
+See the [public API overview and live proof](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/) or [subscribe/test on RapidAPI](https://metermint-csv-preflight.metermint-csv-preflight.workers.dev/go/rapidapi/github).
